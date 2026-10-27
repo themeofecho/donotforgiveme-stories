@@ -29,13 +29,17 @@
 
 双击 `index.html` 即可打开。也可在文件夹运行 `python3 -m http.server 8000`，然后在浏览器打开 `http://localhost:8000`。
 
-## 部署到 GitHub + Cloudflare Pages
+## 正式部署：GitHub Pages
 
-1. 新建 GitHub 仓库，上传此目录内全部文件到仓库根目录。
-2. Cloudflare 控制台选择 Workers & Pages → 创建 Pages 项目 → 连接 GitHub 仓库。
-3. Framework preset 选择 None；Build command 留空；Build output directory 填 `.`（英文句号）；部署。
-4. 以后提交仓库的新修改，会由 Cloudflare Pages 自动重新部署。
-
-参考：https://developers.cloudflare.com/pages/get-started/git-integration/
+- 仓库：https://github.com/themeofecho/donotforgiveme-stories
+- 网站：https://themeofecho.github.io/donotforgiveme-stories/
+- 发布来源：Settings → Pages → Deploy from a branch → `main` → `/ (root)`。
+- 纯静态网站，无需安装依赖或运行构建命令。
+- 提交到 `main` 后，GitHub Pages 自动构建并更新网站；可在仓库 Actions 查看发布状态。
+- 新增作品只需编辑 `works.js` 中的 `window.STORY_WORKS` 数组，复制一项并填写 `title`、`audience`、`url`、`theme`，保存提交即可。标题和数量会自动更新。
+- `description`、`label`、`status` 为保留的配置字段，当前卡片不显示；`english` 仅在未填写 `audience` 时作为副标题。
+- `index.html` 中的无 JavaScript 备用作品链接可以同步补充新作品。
+- `assets/wechat-reward.jpg` 与 `assets/alipay.jpg` 为原始赞赏二维码，请保留原图。
+- 本项目仅为作品集入口，不会修改或重新部署三个已有模拟器网站。
 
 **隐私提醒：** 支持区的微信、支付宝收款图片会作为公开网页资源访问，请确保愿意公开照片中显示的昵称或头像等信息。
