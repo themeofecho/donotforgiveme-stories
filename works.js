@@ -1,13 +1,9 @@
-/*
- * 作品配置：以后有新作品，只需要在这个数组里复制并添加一项。
- * 推荐每部作品分别配置 title / english / audience / description / url / theme。
- * theme 可选：secrets、record、closer、new；新增主题会使用默认封面。
- */
+/* 作品配置：在数组中添加新作品即可。 */
 window.STORY_WORKS = [
   {
     title: 'FIVE SECRETS',
     english: '五重秘密',
-    audience: 'TOP · 五人梦女向秘密恋爱',
+    audience: 'TOP · 五人梦女向秘密恋爱 · 密码：240829',
     description: '一部被捡到的手机，五段不该同时存在的心动。秘密从未真正被藏好。',
     url: 'https://top-donotforgiveme.pages.dev/',
     theme: 'secrets',
