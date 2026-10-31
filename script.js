@@ -6,7 +6,7 @@
     secrets: { top: 'TOP / SECRET LOVE', mark: '05', bottom: 'FIVE SECRETS' },
     record: { top: 'PRIVATE / CAMERA OFF', mark: 'REC', bottom: 'OFF THE RECORD' },
     closer: { top: 'NEXT TO YOU / 02:09', mark: '♡', bottom: 'WHEN YOU COME AROUND' },
-    new: { top: 'COMING / SOON', mark: '✳', bottom: 'A NEW STORY' }
+    new: { top: 'INTERACTIVE / STORY', mark: '✳', bottom: 'A NEW STORY' }
   };
 
   function makeCard(work) {
