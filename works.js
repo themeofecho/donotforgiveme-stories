@@ -29,5 +29,13 @@ window.STORY_WORKS = [
     theme: 'closer',
     label: '校园 · 合租 · 双向心动',
     status: 'OPEN TO PLAY'
+  },
+  {
+    title: 'onlytop网凰模拟器',
+    english: 'ONLYTOP',
+    audience: '互动模拟器',
+    url: 'https://onlytop-player-rena.pages.dev/',
+    theme: 'new',
+    status: 'OPEN TO PLAY'
   }
 ];
